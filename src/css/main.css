@@ -132,3 +132,11 @@ p {
     color: #fff;
     text-align: center;
 }
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: rgb(71, 204, 9);
+}
