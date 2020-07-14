@@ -1,0 +1,40 @@
+
+@media screen and (max-width: 768px) {
+    h2 {
+    font-size: 30px;
+   
+    padding-top: 100px;
+    text-align: center;
+  }
+    .parallax .parallax-container{
+    width: 100%;
+    padding: 0;
+    height: 500px;
+    
+  }
+  .parallax {
+    height: auto;
+}
+.aside {
+    height: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/src/css/dj.css">
-    <link rel="stylesheet" type="text/css" href="/src/css/navBar.css">
+    <link rel="stylesheet" href="/src/css/nav.css">
     <style type="text/css">
 
         html {
@@ -34,16 +34,33 @@
     </style>
 </head>
 <body>
-    <header>
-        <a href="#" class="logo">DJ.PAGE</a>
-        <ul>
-            <li><a href="/" data-text="Home">Home</a></li>
-            <li><a href="/src/view/dj.html" data-text="Dj">DJ</a></li>
-            <li><a href="/src/view/albums.html" data-text="Albums">ALBUMS</a></li>
-            <li><a href="/src/view/news.html" data-text="News">NEWS</a></li>
-            <li><a href="/src/view/contact.html" data-text="Contact">CONTACT</a></li>
+    <nav>
+        <div class="logo">
+            <h4>SESSI8N</h4>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="/">HOME</a>
+            </li>
+            <li>
+                <a href="/src/view/dj.html">DJ</a>
+            </li>
+            <li>
+                <a href="/src/view/albums.html">ALBUMS</a>
+            </li>
+            <li>
+                <a href="/src/view/news.html">NEWS</a>
+            </li>
+            <li>
+                <a href="/src/view/contact.html">CONTACT</a>
+            </li>
         </ul>
-      </header>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
 <section class="container">
     <div class="page-header">
         <h1><br></h1>
@@ -643,6 +660,7 @@
 
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="/src/js/dj.js"></script>
+<script src="/src/js/nav.js"></script>
 <script>
     
     $(function() {
