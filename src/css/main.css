@@ -100,50 +100,6 @@ h1 span:nth-child(13) {
     }
 }
 
-/********** PARALLAX **********/
-
-.parallax-container {
-    height: 100vh;
-}
-
-aside {
-    width: 100%;
-    min-height: 400px;
-    background: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-aside .content {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-h2 {
-    margin: 0;
-    padding: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    font-size: 6em;
-    font-family: 'Cinzel', serif;
-    letter-spacing: 0.1em;
-}
-h3 {
-    text-align: center;
-    color: #fff;
-}
-p {
-    color: #fff;
-    text-align: center;
-}
 a {
     color: #fff;
 }
-
-
-
