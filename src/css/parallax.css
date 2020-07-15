@@ -1,35 +1,11 @@
-
-/*@media screen and (max-width: 768px) {
-    h2 {
-    font-size: 30px;
-   
-    padding-top: 100px;
-    text-align: center;
-  }
-    .parallax .parallax-container{
-    width: 100%;
-    padding: 0;
-    height: 500px;
-    
-  }
-  .parallax {
-    height: auto;
-}
-.aside {
-    height: auto;
-}
-}*/
 html {
   font-size: 62.5%;
 }
-
 
 body {
   margin: 0;
   padding: 0;
 }
-
-
 
 header {
   background: url('/src/image/black.jpg');
@@ -52,7 +28,6 @@ h1 {
   width: 100%;
 }
 
-
 /* Section */
 
 .img1 {
@@ -62,7 +37,6 @@ h1 {
   background-position: center;
   background-attachment: fixed;
 }
-
 
 .box {
   position: relative;
@@ -112,7 +86,6 @@ h2 {
   font-weight: 600;
 }
 
-
 .learn:hover {
   background: rgba(255,255,255,0.9);
   color: black;
@@ -127,7 +100,6 @@ h2 {
   background-position: center;
   background-attachment: fixed;
 }
-
 
 /* Troisieme section */
 
@@ -159,7 +131,6 @@ h2 {
   background-attachment: fixed;
 }
 
-
 /* Animation */
 
 .box1 {
@@ -186,22 +157,4 @@ h2 {
 .fade-in {
   opacity: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
