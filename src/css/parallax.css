@@ -2,67 +2,100 @@ html {
   font-size: 62.5%;
 }
 
-body {
+/*body {
   margin: 0;
   padding: 0;
 }
+/********** HEADER *********/
 
-header {
+/*header {
   background: url('/src/image/black.jpg');
   height: 100vh;
   width: 100%;
   background-size: cover;
   background-position: center;
+  padding: 0;
+  margin: 0;
+}*/
 
-}
-
-h1 {
+/*h1 {
   text-align: center;
   color: #fff;
   font-family: 'Cinzel', serif;
   font-size: 13rem;
   margin: 0;
   position: relative;
-  /*top: 25rem;*/
+ 
   letter-spacing: 5px;
   width: 100%;
+}*/
+
+/********** MEDIA HEADER **********/
+
+@media screen and (max-width: 1000px) {
+  .homepage {
+      height: 700px;
+      min-height: 0;
+      max-width: 100%;
+      padding: 0%;
+  }
+  h1 span {
+      font-size: 70px;
+      margin: 0 30px 0 30px;
+      padding-top: 100px;
+  }
+  header span {
+      margin: 20px 0 20px 30px;
+  }
+
 }
 
-/* Section */
-
-.img1 {
-  background: url('/src/image/img1.jpg');
-  height: 108rem;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+@media screen and (max-width: 700px) {
+  .homepage {
+      height: 600px;
+  }
+  h1 span{
+      font-size: 50px;
+      margin: 0 30px;
+  }
+  header span {
+      font-size: 20px;
+  }
+  
 }
+
+@media screen and (max-width: 500px) {
+  h1 {
+      font-size: 35px;
+  }
+  header span {
+      font-size: 16px;
+  }
+  
+}
+
+/********** Section **********/
 
 .box {
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 82rem;
+  width: 75rem;
   height: 45rem;
   text-align: center;
   background: rgba(0,0,0,0.3);
   color: white;
   line-height: 1.5rem;
- font-family: 'Cinzel', serif;
+  font-family: 'Cinzel', serif;
   font-weight: 100;
   padding: 3.5rem;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: 'lato', sans-serif;
   line-height: 1.25rem;
-}
-
-.date {
-  font-size: 2rem;
-  opacity: 0.7;
 }
 
 .text {
@@ -89,6 +122,16 @@ h2 {
 .learn:hover {
   background: rgba(255,255,255,0.9);
   color: black;
+}
+
+/* Premiere section */
+
+.img1 {
+  background: url('/src/image/img1.jpg');
+  height: 108rem;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 /* Deuxieme section */
@@ -157,4 +200,31 @@ h2 {
 .fade-in {
   opacity: 1;
 }
+/********** **********/
+
+@media screen and (max-width: 1300px) {
+  .text {
+      font-size: 25px;
+      margin: 0 30px;
+  }
+  
+}
+@media screen and (max-width: 700px) {
+
+.text {
+  font-size: 22px;
+  margin: 0 25px;
+}
+}
+@media screen and (max-width: 550px) {
+
+  .box .box1 {
+      flex-direction: column;
+  }
+  .text {
+      font-size: 20px;
+      margin: 20px 0px;
+  }
+}
+
 

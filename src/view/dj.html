@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="msapplication-tap-highlight" content="no">
 
-    <title>DJ.Page</title>
+    <title>DJEE</title>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/src/css/dj.css">
-    <link rel="stylesheet" href="/src/css/nav.css">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/src/css/dj.css" rel="stylesheet">
+    <link href="/src/css/nav.css" rel="stylesheet">
+    <link href="/src/css/main.css" rel="stylesheet">
+    <link href="/src/css/parallax.css" rel="stylesheet">
     <style type="text/css">
 
         html {
@@ -32,35 +35,38 @@
         }
 
     </style>
+
 </head>
+
 <body>
-    <nav>
-        <div class="logo">
-            <h4>SESSI8N</h4>
-        </div>
-        <ul class="nav-links">
-            <li>
-                <a href="/">HOME</a>
-            </li>
-            <li>
-                <a href="/src/view/dj.html">DJ</a>
-            </li>
-            <li>
-                <a href="/src/view/albums.html">ALBUMS</a>
-            </li>
-            <li>
-                <a href="/src/view/news.html">NEWS</a>
-            </li>
-            <li>
-                <a href="/src/view/contact.html">CONTACT</a>
-            </li>
-        </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-    </nav>
+    
+  <!-- NAVBAR -->
+
+  <nav>
+    <ul class="nav-links">
+      <li>
+        <a href="/">HOME.</a>
+      </li>
+      <li>
+        <a href="/src/view/dj.html">DJEE.</a>
+      </li>
+      <li>
+        <a href="/src/view/discography.html">DISCOGRAPHY.</a>
+      </li>
+      <li>
+        <a href="/src/view/articles.html">ARTICLES.</a>
+      </li>
+      <li>
+        <a href="/src/view/contact.html">CONTACT.</a>
+      </li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
 <section class="container">
     <div class="page-header">
         <h1><br></h1>
@@ -627,9 +633,13 @@
     </div>
 </section>
 
-<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="/src/js/dj.js"></script>
-<script src="/src/js/nav.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="/src/js/dj.js"></script>
+  <script src="/src/js/nav.js"></script>
+  
+
 <script>
     
     $(function() {

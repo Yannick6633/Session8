@@ -2,18 +2,41 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="msapplication-tap-highlight" content="no">
 
   <title>Sessi8n</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link rel="stylesheet" type="text/css" href="/src/css/main.css">
-  <link rel="stylesheet" type="text/css" href="/src/css/nav.css">
-  <link rel="stylesheet" type="text/css" href="/src/css/parallax.css">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/src/css/dj.css" rel="stylesheet">
+  <link href="/src/css/nav.css" rel="stylesheet">
+  <link href="/src/css/main.css" rel="stylesheet">
+  <link href="/src/css/parallax.css" rel="stylesheet">
+  <link href="/src/css/footer.css" rel="stylesheet">
+
+  <style type="text/css">
+    html {
+      min-height: 100%;
+    }
 
 
+    body {
+      font-family: 'Cinzel', serif;
+      font-weight: 300;
+      font-size: 16px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-weight: 200;
+    }
+  </style>
 
 
 
@@ -22,25 +45,23 @@
 <body>
 
   <!-- NAVBAR -->
+
   <nav>
-    <div class="logo">
-      <h4>SX8</h4>
-    </div>
     <ul class="nav-links">
       <li>
-        <a href="#">HOME</a>
+        <a href="#">HOME.</a>
       </li>
       <li>
-        <a href="/src/view/dj.html">DJ</a>
+        <a href="/src/view/dj.html">DJEE.</a>
       </li>
       <li>
-        <a href="/src/view/albums.html">DISCOGRAPHY</a>
+        <a href="/src/view/discography.html">DISCOGRAPHY.</a>
       </li>
       <li>
-        <a href="/src/view/news.html">NEWS</a>
+        <a href="/src/view/articles.html">ARTICLES.</a>
       </li>
       <li>
-        <a href="/src/view/contact.html">CONTACT</a>
+        <a href="/src/view/blog.html">Blog.</a>
       </li>
     </ul>
     <div class="burger">
@@ -52,7 +73,7 @@
 
   <!-- HOME -->
 
-  <header>
+  <header class="homepage">
     <video src="/src/video/smoke.mp4" autoplay muted type="mp4"></video>
     <h1>
       <span>S</span>
@@ -70,8 +91,8 @@
   <section>
     <div class="img1">
       <div class="box box1">
-        <h2>SOUND AND ELECTRONICS BEATS.</h2>
-        <p class="date"></p>
+        <h2>Electronic Sound and Beats.</h2>
+
         <div class="text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid est assumenda rerum magnam
           nesciunt
@@ -92,8 +113,8 @@
   <section>
     <div class="img2">
       <div class="box box2">
-        <h2>DJ.</h2>
-        <p class="date"></p>
+        <h2>Djee.</h2>
+
         <div class="text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid est assumenda rerum magnam
           nesciunt
@@ -114,8 +135,8 @@
   <section>
     <div class="img3">
       <div class="box box3">
-        <h2>DISCOGRAPHY.</h2>
-        <p class="date"></p>
+        <h2>Discography.</h2>
+
         <div class="text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid est assumenda rerum magnam
           nesciunt
@@ -136,8 +157,8 @@
   <section>
     <div class="img4">
       <div class="box box4">
-        <h2>NEWS.</h2>
-        <p class="date"></p>
+        <h2>Articles.</h2>
+
         <div class="text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid est assumenda rerum magnam
           nesciunt
@@ -158,8 +179,8 @@
   <section>
     <div class="img5">
       <div class="box box5">
-        <h2>CONTACT.</h2>
-        <p class="date"></p>
+        <h2>Blog.</h2>
+
         <div class="text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid est assumenda rerum magnam
           nesciunt
@@ -171,22 +192,83 @@
           praesentium dolorem? Vel a error accusantium exercitationem, non iure distinctio voluptatum vitae
           saepe?
         </div>
-        <button class="learn">CONTACT ME</button>
+        <button class="learn">LEARN MORE</button>
       </div>
     </div>
 
   </section>
 
-  <!-- FOOTER -->
+  <!-- Footer -->
 
-  <footer>
-    <h3>Bas de page</h3>
-  </footer>
+  <div class="footer">
+    <div class="footer-content">
+
+      <div class="footer-section about">
+        <h2 class="logo-text"><span>Electronic</span> Sound and Beats</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur.
+        </p>
+        <div class="contact">
+          <span><i class="fas fa-phone"></i> &nbsp; +336 31 78 75 70</span>
+          <span><i class="fas fa-envelope"></i> &nbsp; yannickdec33@gmail.com</span>
+        </div>
+        <div class="socials">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-section links">
+        <h3>Quick Links</h3>
+        <br>
+        <ul>
+          <a href="#">
+            <li>Events</li>
+          </a>
+          <a href="#">
+            <li>Blog</li>
+          </a>
+          <a href="#">
+            <li>Concert</li>
+          </a>
+          <a href="#">
+            <li>Gallery</li>
+          </a>
+          <a href="#">
+            <li>Terms and Conditions</li>
+          </a>
+        </ul>
+      </div>
+
+      <div class="footer-section contact-form">
+        <h3>Contact me</h3>
+        <br>
+        <form action="index.html" method="POST">
+          <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+          <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+          <button type="submit" class="btn btn-big contact-btn">
+            <i class="fas fa-envelope"></i>
+            Send
+          </button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      &copy; Electronic Sound and Beats | Designed by Yannick Decombes
+    </div>
+  </div>
+
+  <!-- // Footer -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+  <!--script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script src="src/js/nav.js"></script>
   <script src="/src/js/parallax.js"></script>
 
