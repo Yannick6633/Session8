@@ -67,7 +67,7 @@
             <a href="#"><i class="fab fa-facebook"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.youtube.com/c/H%C3%96RBERLIN/featured" target="blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.youtube.com/c/H%C3%96RBERLIN/featured"><i class="fab fa-youtube"></i></a>
           </div>
         </div>
   
@@ -120,6 +120,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script src="/src/js/nav.js"></script>
+
+  <script>
+    $('a').attr('target', function() {
+        if(this.host == location.host) return '_self'
+        else return '_blank'
+    });
+  </script>
 
     </body>
     </html>
