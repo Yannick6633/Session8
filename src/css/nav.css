@@ -1,7 +1,11 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  color: #d9d9d9;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -17,13 +21,6 @@ nav {
     position: fixed;
     z-index: 100000;
 }   
-
-/*.logo { 
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 25px;
-}*/
 
 .nav-links {
     display: flex;

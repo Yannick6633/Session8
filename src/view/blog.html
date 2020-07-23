@@ -11,9 +11,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/src/css/dj.css">
-    <link rel="stylesheet" type="text/css" href="/src/css/nav.css">
-    <link href="/src/css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/nav.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
     
 </head>
 <body>
@@ -122,6 +121,10 @@
   <script src="/src/js/nav.js"></script>
 
   <script>
+    $(function() {
+      $('.container').before('<hr>');
+  });
+  
     $('a').attr('target', function() {
         if(this.host == location.host) return '_self'
         else return '_blank'

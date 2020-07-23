@@ -1,8 +1,15 @@
 
 /********* HOME **********/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+    color: #d9d9d9;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+  
 body {
     margin: 0;
     padding: 0;

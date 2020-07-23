@@ -7,13 +7,14 @@
     <meta name="msapplication-tap-highlight" content="no">
 
     <title>discography</title>
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/src/css/dj.css">
     <link rel="stylesheet" href="/src/css/nav.css">
-    <link href="/src/css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/discography.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
     
 </head>
 <body>
@@ -45,9 +46,105 @@
     </div>
   </nav>
 
-  <section class="container">
-    
-  </section>
+  <header>
+    <h1>discography</h1>
+  </header>
+
+  <!-- ARTICLES -->
+  
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="swiper-content">
+          <div class="hero new-york">
+            <div class="calendar">
+              <span class="date">
+                 27
+                </span>
+              <span class="month">
+                  MAR
+                </span>
+            </div>
+           
+          </div>
+          <div class="copy">
+            <h1>New York City</h1>
+            <h3>The city that never sleeps.</h3>
+            <p>Situated on one of the world's largest natural harbors, New York City consists of five boroughs, each of which is a separate county of the State of New York. The five boroughs – Brooklyn, Queens, Manhattan, The Bronx, and Staten Island – were consolidated into a single city in 1898. Also, Taryn lives here.</p>
+            <div class="footer1">
+              <div class="time">
+                <div><i class="fas fa-clock fa-fw"></i> 6 mins ago</div>
+              </div>
+              <div class="comments">
+                <div><i class="fas fa-comments fa-fw"></i> 39 comments</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-content">
+          <div class="hero san-fran">
+            <div class="calendar">
+              <span class="date">
+                 28
+                </span>
+              <span class="month">
+                  MAR
+                </span>
+            </div>
+         
+          </div>
+          <div class="copy">
+            <h1>San Francisco</h1>
+            <h3>The City by the Bay.</h3>
+            <p>Situated on a peninsula separating San Francisco Bay from the Pacific Ocean, San Francisco is a uniquely picturesque city, whose scenic attractions include the largest cultivated urban park in the country, Golden Gate Park.</p>
+            <div class="footer1">
+              <div class="time">
+                <div><i class="fas fa-clock fa-fw"></i> 12 mins ago</div>
+              </div>
+              <div class="comments">
+                <div><i class="fas fa-comments fa-fw"></i> 64 comments</div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-content">
+          <div class="hero chicago">
+            <div class="calendar">
+              <span class="date">
+                 29
+                </span>
+              <span class="month">
+                  MAR
+                </span>
+            </div>
+           
+          </div>
+          <div class="copy">
+            <h1>Chicago</h1>
+            <h3>The windy city.</h3>
+            <p>Located in northeastern Illinois on the southwestern shores of Lake Michigan. It is the principal city in the Chicago Metropolitan Area, situated in the Midwestern United States and the Great Lakes region.</p>
+            <div class="footer1">
+              <div class="time">
+                <div><i class="fas fa-clock fa-fw"></i> 18 mins ago</div>
+              </div>
+              <div class="comments">
+                <div><i class="fas fa-comments fa-fw"></i> 102 comments</div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
 
     <!-- Footer -->
 
@@ -116,17 +213,26 @@
     <!-- // Footer -->
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script src="/src/js/nav.js"></script>
+  <script src="/src/js/discography.js"></script>
 
   <script>
+  
+    $(function() {
+      $('.container').before('<hr>');
+  });
+  
     $('a').attr('target', function() {
         if(this.host == location.host) return '_self'
         else return '_blank'
     });
   </script>
+  
+
 
     </body>
     </html>
