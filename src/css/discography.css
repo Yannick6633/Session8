@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   color: #d9d9d9;
@@ -12,322 +12,64 @@ body {
   background: url(https://s3.eu-west-2.amazonaws.com/pirolab/images/grad-bg.png) no-repeat center center/cover #000;
   margin: 0;
   padding: 0;
-  /*font-size: 95%;*/
   line-height: 1.2;
 }
 
-/*body {
-    background: #222;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }*/
+header {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
 
-  header {
-      width: 90%;
-      max-width: 1240px;
-      margin: 0 auto;
-      margin-top: 150px;
-  }
-  
-  h1 {
-    font-size: 1.8rem;
-    padding: 0;
-    margin: 0 10px 0 0;
-  }
-  /*h1 {
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-    font-size: 1.6rem;
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
-    font-weight: 400;
-    color: #fff;
-  }*/
-  
-  
-  h3 {
-    font-size: 1.3rem;
-    padding: 0;
-    margin: 5px 0 15px 0;
-    color: darkred;
-  }
-  
-  p {
-    padding: 0;
-    margin: 0;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: #000;
-  }
-  
-  .swiper-container {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  
-  .swiper-slide {
-    width: 400px;
-    height: 500px;
-    padding: 5px;
-  }
-  
-  .swiper-content {
-    background-color: #fff;
-    width: 100%;
-    height: 100%;
-  }
-  .swiper-content .hero {
-    width: 100%;
-    height: 175px;
-    position: relative;
-  }
-  .swiper-content .hero .calendar {
-    width: 60px;
-    height: 60px;
-    float: right;
-    background-color: darkred;
-    border-radius: 50%;
-    margin-right: 15px;
-    margin-top: 15px;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .swiper-content .hero .calendar .date {
-    font-size: 1.2rem;
-    line-height: 1.3rem;
-  }
-  .swiper-content .hero .calendar .month {
-    font-size: 0.8rem;
-  }
-  .swiper-content .hero .photo-btn {
-    position: absolute;
-    bottom: 0;
-    width: 100px;
-    height: 40px;
-    background-color: darkred;
-    border: none;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #fff;
-    transition: 0.2s all;
-    cursor: pointer;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-  }
-  .swiper-content .hero .photo-btn:hover {
-    width: 100%;
-    height: 100%;
-    transition: 0.2s all;
-  }
-  .swiper-content .hero .photo-btn:hover .text {
-    display: none;
-  }
-  .swiper-content .hero .photo-btn:hover .gallery {
-    display: flex;
-  }
-  .swiper-content .hero .photo-btn .text {
-    text-align: center;
-    line-height: 40px;
-  }
-  .swiper-content .hero .photo-btn .gallery {
-    width: 100%;
-    display: none;
-    flex-direction: column;
-  }
-  .swiper-content .hero .photo-btn .gallery .row {
-    width: 100%;
-    height: 34%;
-    display: flex;
-  }
-  .swiper-content .hero .photo-btn .gallery .row .image {
-    opacity: 0.6;
-    width: 34%;
-    height: 100%;
-    display: inline-block;
-    transition: 0.2s all;
-  }
-  .swiper-content .hero .photo-btn .gallery .row .image:hover {
-    opacity: 1;
-    transition: 0.2s all;
-  }
-  .swiper-content .hero.new-york {
-    background: url("https://daytripsontario.files.wordpress.com/2017/03/img_6859-copy.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  .swiper-content .hero.new-york .top .image.one {
-    background: url("https://media-cdn.tripadvisor.com/media/photo-s/0e/9a/e3/1d/freedom-tower.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.new-york .top .image.two {
-    background: url("https://medicalcannabiscultivation.com/wp-content/uploads/2018/03/NY.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.new-york .top .image.three {
-    background: url("https://www.nycgo.com/images/made/images/uploads/articles/NYC_in_3_Days/TimesSquare-TaggerYanceyIV_900_600_70.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.new-york .middle .image.one {
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS7O-nPTS9BLCUX-uV1jihGs2QetTViwoOhUK0jctN6QLhITWCKA");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.new-york .middle .image.two {
-    background: url("https://cdn.vox-cdn.com/thumbor/L9EthniNFveihyyk7EQSOhsx9_8=/0x0:3000x2002/1200x800/filters:focal(1260x761:1740x1241)/cdn.vox-cdn.com/uploads/chorus_image/image/55473705/uppereastside.0.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.new-york .middle .image.three {
-    background: url("https://www.nps.gov/subjects/urban/images/new-york.JPG?maxwidth=1200&maxheight=1200&autorotate=false");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.new-york .bottom .image.one {
-    background: url("https://d1v5vpeyrmf36z.cloudfront.net/media/CACHE/images/image-previews/squares/Tishman_RC_AttactionModule_600x600/1eb15b14cfbb90dba0e3813bc8193580.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.new-york .bottom .image.two {
-    background: url("https://thenypost.files.wordpress.com/2017/04/new-york.jpg?quality=90&strip=all&w=618&h=410&crop=1");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.new-york .bottom .image.three {
-    background: url("http://static1.squarespace.com/static/5813cddb8419c25c3b42eacd/5813e156414fb51499dfe55c/58670bbb197aea5283327c61/1488664764289/?format=1000w");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.san-fran {
-    background: url("http://s3.envato.com/files/241747423/20171202-North-Beach-p4p-0197-4mp.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  .swiper-content .hero.san-fran .top .image.one {
-    background: url("https://cdn.vox-cdn.com/thumbor/nkA0OYFOejA96gXee5DQG9RZVFk=/0x0:1368x912/1200x800/filters:focal(575x347:793x565)/cdn.vox-cdn.com/uploads/chorus_image/image/55144679/Pius_Lee.0.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.san-fran .top .image.two {
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzWjZw4b1U4dttrxI7n1GZKiJ3hkQxl8d3bHcXlo0a7v89a-NpHw");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.san-fran .top .image.three {
-    background: url("http://assets.fodors.com/destinations/54494/alamo-square-san-francisco-california-usa_main.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.san-fran .middle .image.one {
-    background: url("https://cdn-images-1.medium.com/max/800/1*J0Znftz9w-YEdOSILoV6kw.jpeg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.san-fran .middle .image.two {
-    background: url("https://www.jetblue.com/img/vacations/destination/San-Francisco-960-x-420.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.san-fran .middle .image.three {
-    background: url("https://az616578.vo.msecnd.net/files/2016/05/16/635989831137616837-380923038_san-francisco-real-estate-market-trends-3.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.san-fran .bottom .image.one {
-    background: url("http://s79f01z693v3ecoes3yyjsg1.wpengine.netdna-cdn.com/wp-content/uploads/2016/12/sf.IDriveSF.1230.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.san-fran .bottom .image.two {
-    background: url("https://www.smartdestinations.com/img/pt/dest/Sfo/att/Sfo_Att_Hop_On_Hop_Off_Classic_Tour_1_Day_Ticket/gallery/Hop-On-Hop-Off-Classic-Tour-1-Day-Ticket-1.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.san-fran .bottom .image.three {
-    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/San_Francisco_%28Evening%29.jpg/1200px-San_Francisco_%28Evening%29.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.chicago {
-    background: url("https://i2.wp.com/www.maven.co/wp-content/uploads/2014/07/Chicago-Skyline.jpg?ssl=1");
-    background-position: center;
-    background-size: cover;
-  }
-  .swiper-content .hero.chicago .top .image.one {
-    background: url("http://www.chicagobusiness.com/apps/pbcsi.dll/storyimage/CG/20180118/NEWS07/180119900/AR/0/amazon-hq2-chicago.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.chicago .top .image.two {
-    background: url("https://chicagoinnovation.com//wp-content/uploads/2017/10/chicago_innovation_mission_video_screenshot.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.chicago .top .image.three {
-    background: url("http://www.monaco-chicago.com/images/1700-960/chicago-skyline-f81e26ea.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.chicago .middle .image.one {
-    background: url("https://www.visittheusa.co.uk/sites/default/files/styles/hero_m_1300x700/public/images/hero_media_image/2018-05/2af94a274ebf7f6716f9b2068595581c.jpeg?itok=E4aYJ2RV");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.chicago .middle .image.two {
-    background: url("https://3hkj9i2chtjx336clgvx1skh-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/DowntownChicago_BodyImage.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.chicago .middle .image.three {
-    background: url("https://d12dkjq56sjcos.cloudfront.net/pub/media/wysiwyg/chicago/01-city-landing/View-Of-Chicago-Oak-St-Beach-Lake-Michigan.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.chicago .bottom .image.one {
-    background: url("https://tt-wp-insider.imgix.net/2018/04/chicago-oak-street-beach-downtown.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.chicago .bottom .image.two {
-    background: url("https://img.buzzfeed.com/buzzfeed-static/static/2014-03/campaign_images/webdr06/27/23/50-things-you-probably-didnt-know-about-chicago-2-16837-1395978386-4_dblbig.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .hero.chicago .bottom .image.three {
-    background: url("https://www.martplaza.com/resourcefiles/things-to-do-slider-slider/navy-pier-at-chicago-th.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-content .copy {
-    padding: 20px;
-  }
-  .swiper-content .footer1 {
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 35px;
-    color: graytext;
-  }
-  .swiper-content .footer1 .time {
-    display: inline-block;
-  }
-  .swiper-content .footer1 .comments {
-    display: inline-block;
-    margin-left: 20px;
-    cursor: pointer;
-    transition: 0.2s all;
-  }
-  .swiper-content .footer1 .comments:hover {
-    color: darkred;
-    transition: 0.2s all;
-  }
+h1 {
+  font-size: 1.8rem;
+  padding: 0;
+  margin: 0 10px 0 0;
+}
+
+/************ DISCOGRAPHY ******************/
+
+.container {
+  padding: 50px 0;
+}
+
+.content1 {
+  background: rgb(126, 121, 121);
+  height: auto;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.boxDescription {
+  padding: 30px;
+}
+
+#boxs .box:nth-child(n+7) {
+  display: none;
+}
+
+.img-container {
+  height: 300px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  padding: 15px;
+  margin: 30px 0;
+  background-color: #000;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  transition: all 0.5s ease;
+  border: 1px solid rgb(172, 4, 4);
+  box-shadow: 0 0 15px 5px rgb(230, 48, 48);
+}
   
