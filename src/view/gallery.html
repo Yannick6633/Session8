@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/src/css/nav.css">
+   
   <link rel="stylesheet" href="/src/css/gallery.css">
   <link rel="stylesheet" href="/src/css/footer.css">
 
@@ -49,7 +50,7 @@
     </div>
   </nav>
 
-  <header>
+  <header class="lehaut">
     <h1>Gallery</h1>
   </header>
 
@@ -215,15 +216,33 @@
 
       <div class="footer-section contact-form">
         <h3>Contact me</h3>
+
         <br>
-        <form action="index.html" method="POST">
-          <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
-          <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
-          <button type="submit" class="btn btn-big contact-btn">
-            <i class="fas fa-envelope"></i>
-            Send
-          </button>
-        </form>
+
+        <!--div class="container-form"-->
+
+          <form action="mail.php" method="POST" class="form-bloc">
+
+              <!--div class="form-groupe"-->
+                  <input  type="text" name="name"  placeholder="Name" required maxlength="16" id="mail-name">
+              <!--/div-->
+
+              <!--div class="form-groupe"-->
+                  <input type="text" name="email" placeholder="Mail" required maxlength="16" id="mail-email">
+              <!--/div-->
+
+              <!--div class="form-groupe"-->
+                  <textarea name="message" placeholder="Message" id="mail-message"></textarea>
+                      
+              <!--/div-->
+
+              <!--div class="form-groupe"-->
+                  <button type="submit" name="submit" id="sending_form">Send Email</button>
+                  <p class="form-message"></p>
+              <!--/div-->
+
+          </form>
+      <!--/div-->
       </div>
 
     </div>

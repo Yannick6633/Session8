@@ -109,3 +109,34 @@ nav {
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
+
+/************************************************/
+
+ul {
+    list-style: none;
+    padding: 20px 0;
+  }
+  
+  li {
+    display: inline;
+    padding: 10px 25px;
+    font-size: 14px;
+    color: #636363;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    transition: all 1s ease;
+    border-radius: 100px 100px 100px 100px / 50px 50px 50px 50px;
+  }
+  
+  li:hover {
+    color: #000;
+    background: rgb(172, 4, 4);
+    transition: all 1s ease;
+  }
+  
+  li.active {
+    color: #000;
+    background: #9d9da5;
+  }

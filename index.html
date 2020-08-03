@@ -226,16 +226,34 @@
       </div>
 
       <div class="footer-section contact-form">
-        <h3>Contact me</h3>
+        <h3>Contact</h3>
+
         <br>
-        <form action="index.html" method="POST">
-          <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
-          <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
-          <button type="submit" class="btn btn-big contact-btn">
-            <i class="fas fa-envelope"></i>
-            Send
-          </button>
-        </form>
+
+        <!--div class="container-form"-->
+
+          <form action="mail.php" method="POST" class="form-bloc">
+
+              <!--div class="form-groupe"-->
+                  <input  type="text" name="name"  placeholder="Name" required maxlength="16" id="mail-name">
+              <!--/div-->
+
+              <!--div class="form-groupe"-->
+                  <input type="text" name="email" placeholder="Mail" required maxlength="16" id="mail-email">
+              <!--/div-->
+
+              <!--div class="form-groupe"-->
+                  <textarea name="message" placeholder="Message" id="mail-message"></textarea>
+                      
+              <!--/div-->
+
+              <!--div class="form-groupe"-->
+                  <button type="submit" name="submit" id="sending_form">Send Email</button>
+                  <p class="form-message"></p>
+              <!--/div-->
+
+          </form>
+      <!--/div-->
       </div>
 
     </div>
@@ -251,21 +269,22 @@
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
         crossorigin="anonymous">
       </script>
-  <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script-->
+      
+  <!--script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script src="src/js/nav.js"></script>
   <script src="/src/js/parallax.js"></script>
+  <script src="/src/js/send.js"></script>
 
   <script>
     $('a').attr('target', function() {
         if(this.host == location.host) return '_self'
         else return '_blank'
     });
-
-    
   </script>
+
 
 </body>
 

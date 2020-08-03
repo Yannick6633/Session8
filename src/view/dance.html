@@ -47,7 +47,7 @@
     </div>
   </nav>
 
-  <header>
+  <header class="lehaut">
     <h1>Dance Floor</h1>
   </header>
 
@@ -106,15 +106,33 @@
 
       <div class="footer-section contact-form">
         <h3>Contact me</h3>
+
         <br>
-        <form action="index.html" method="POST">
-          <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
-          <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
-          <button type="submit" class="btn btn-big contact-btn">
-            <i class="fas fa-envelope"></i>
-            Send
-          </button>
-        </form>
+
+        <!--div class="container-form"-->
+
+          <form action="mail.php" method="POST" class="form-bloc">
+
+              <!--div class="form-groupe"-->
+                  <input  type="text" name="name"  placeholder="Name" required maxlength="16" id="mail-name">
+              <!--/div-->
+
+              <!--div class="form-groupe"-->
+                  <input type="text" name="email" placeholder="Mail" required maxlength="16" id="mail-email">
+              <!--/div-->
+
+              <!--div class="form-groupe"-->
+                  <textarea name="message" placeholder="Message" id="mail-message"></textarea>
+                      
+              <!--/div-->
+
+              <!--div class="form-groupe"-->
+                  <button type="submit" name="submit" id="sending_form">Send Email</button>
+                  <p class="form-message"></p>
+              <!--/div-->
+
+          </form>
+      <!--/div-->
       </div>
 
     </div>
