@@ -87,6 +87,9 @@ li.active {
 }
 
 
+.lightboxOverlay {
+  outline: 0;
+}
 
 /*@media (max-width:1200px) {
   .gallery {
@@ -118,8 +121,5 @@ li.active {
   }
 }*/
 
-.lightboxOverlay {
-  outline: 0;
-}
 
 

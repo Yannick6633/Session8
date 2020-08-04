@@ -32,10 +32,11 @@ h1 {
 
 .container {
   padding: 50px 0;
+  
 }
 
 .content1 {
-  background: rgb(126, 121, 121);
+  background: #343a40;
   height: auto;
   width: 100%;
   margin-top: 30px;
@@ -58,6 +59,11 @@ h1 {
   height: 100%;
 }
 
+.content1:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 1s;
+}
 /********************************************/ 
 
 button {

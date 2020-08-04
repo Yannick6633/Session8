@@ -224,14 +224,15 @@ h2 {
   margin: 0 25px;
 }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 500px) {
 
   .box .box1 {
       flex-direction: column;
+      
   }
   .text {
-      font-size: 20px;
-      margin: 20px 0px;
+      font-size: 18px;
+      margin: 0 20px;
   }
 }
 
