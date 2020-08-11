@@ -53,3 +53,7 @@ h1 span:nth-child(6) {
 h1 span:nth-child(7) {
     animation-delay: 4s;
 }
+
+h2 {
+    font-size: 4em; 
+}

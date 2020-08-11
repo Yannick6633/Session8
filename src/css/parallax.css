@@ -20,9 +20,9 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    font-size: 20px;
+    /*font-size: 20px;*/
     margin: 0;
-    line-height: 1.5;
+    /*line-height: 1.5;*/
     -webkit-font-smoothing: antialiased;
 }
 h1 {
@@ -32,6 +32,7 @@ h2 {
     font-size: 30px;
 }
 p {
+    font-size: 20px;
     margin-top: 0;
     margin-bottom: 5px;
 }
@@ -72,7 +73,7 @@ a:hover, a:focus {
 }
 
 /* hero block */
-.demo-table {
+/*.demo-table {
     display: table;
     width: 100%;
     height: 600px;
@@ -83,7 +84,7 @@ a:hover, a:focus {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-}
+}*/
 
 /* gap */
 .demo-gap {
@@ -134,7 +135,7 @@ a:hover, a:focus {
 
 
 /* Carousel */
-.demo-carousel {
+/*.demo-carousel {
     background-color: rgb(39, 35, 51);
 }
 .demo-carousel .demo-carousel-item {
@@ -150,7 +151,7 @@ a:hover, a:focus {
     .demo-carousel .demo-carousel-item {
         width: 100%;
     }
-}
+}*/
 
 
 /* Mobile */
