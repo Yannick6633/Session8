@@ -15,7 +15,7 @@ body {
   line-height: 1.2;
 }
 
-.lehaut{
+.lehaut {
   width: 90%;
   max-width: 1240px;
   margin: 0 auto;
@@ -30,8 +30,10 @@ h1 {
 
 /******************** NAV ***************************/
 
+
+
 .filters {
-  width: 100%;
+ /* width: 100%;*/
   text-align: center;
 }
 
@@ -91,8 +93,8 @@ li.active {
   outline: 0;
 }
 
-/*@media (max-width:1200px) {
-  .grid{
+@media (max-width:1200px) {
+  .grid {
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
@@ -103,7 +105,7 @@ li.active {
 }
 
 @media (max-width:800px) {
-  .grid{
+  .grid {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
@@ -114,12 +116,18 @@ li.active {
 }
 
 @media (max-width:600px) {
-  .grid{
+  .grid {
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
   }
-}*/
+}
 
+@media (max-width: 600px) {
+  .filters.filter-button-group {
+    font-size: 5px;
+   vertical-align: unset;
+    width: 100%;
+}
 
-
+}
