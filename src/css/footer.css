@@ -25,7 +25,7 @@
 .footer .footer-content .footer-section {
     flex: 1;
     padding: 25px;
-   
+    background: #303036;
 }
 
 .footer .footer-content h2,
@@ -139,5 +139,9 @@
     border: 1px solid rgb(172, 4, 4);
     box-shadow: 0 0 15px 5px rgb(230, 48, 48);
     
+  }
+
+  .logo-text {
+      font-size: 30px;
   }
     
