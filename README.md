@@ -12,4 +12,4 @@ Application web de mise en avant des artistes techno Berlinois
 * [Lightbox](https://lokeshdhakar.com/projects/lightbox2/) - Bibliothèque javascript
 * [Isotope](https://isotope.metafizzy.co/) - Bibliothèque javascript
 * [LazyLoad]
-* [LazyLoad](https://jquery.com/) - Bibliothèque javascript
+* [JQuery](https://jquery.com/) - Bibliothèque javascript
