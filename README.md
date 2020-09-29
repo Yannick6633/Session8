@@ -8,8 +8,8 @@ Application web de mise en avant des artistes techno Berlinois
 
 * [Materialize.css](http://materializecss.com) - Framework CSS (front-end)
 * [Visual StudioCode](https://code.visualstudio.com/) - Editeur de textes
-* [Jarallax] (http://www.jarallax.com/) - Bibliothèque javascript
-* [Lightbox] (https://lokeshdhakar.com/projects/lightbox2/) - Bibliothèque javascript
-* [Isotope] (https://isotope.metafizzy.co/) - Bibliothèque javascript
+* [Jarallax](http://www.jarallax.com/) - Bibliothèque javascript
+* [Lightbox](https://lokeshdhakar.com/projects/lightbox2/) - Bibliothèque javascript
+* [Isotope](https://isotope.metafizzy.co/) - Bibliothèque javascript
 * [LazyLoad]
-* [LazyLoad] (https://jquery.com/) - Bibliothèque javascript
+* [LazyLoad](https://jquery.com/) - Bibliothèque javascript
