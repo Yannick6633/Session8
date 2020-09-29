@@ -6,8 +6,10 @@ Application web de mise en avant des artistes techno Berlinois
 
 ## Fabriqué avec
 
-Entrez les programmes/logiciels/ressources que vous avez utilisé pour développer votre projet
-
-_exemples :_
 * [Materialize.css](http://materializecss.com) - Framework CSS (front-end)
 * [Visual StudioCode](https://code.visualstudio.com/) - Editeur de textes
+* [Jarallax] (http://www.jarallax.com/) - Bibliothèque javascript
+* [Lightbox] (https://lokeshdhakar.com/projects/lightbox2/) - Bibliothèque javascript
+* [Isotope] (https://isotope.metafizzy.co/) - Bibliothèque javascript
+* [LazyLoad]
+* [LazyLoad] (https://jquery.com/) - Bibliothèque javascript
